@@ -11,19 +11,18 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="purple"> INTRODUCE </span> OURSELVES
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              We are doing the healthy eating website, thanks for watching...... 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br /> Do you want to lose weight and become beautiful??
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> If you want, let's start it!! </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Omg I don't know saying what???????????????????????????????????? &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
