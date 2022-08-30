@@ -42,7 +42,6 @@ export default class FoodNutrients extends Component {
       <div className="foodnutrients about-section container-fluid">
         <div className="leftPanel">
           <div className="logo">
-            {/* <img alt="Logo" src={logo} /> */}
           </div>
           <Foods updateNutrients={this.updateNutrients} />
         </div>

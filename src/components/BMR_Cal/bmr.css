@@ -5,7 +5,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background: #F4F1F1;
+    background: #58D68D;
     font-family: 'Open Sans', sans-serif;
     color:black;
     font-size: 15px;
@@ -22,7 +22,7 @@ div#bmrcalc {
 }
 .form {
     width: 600px;
-    background: white;
+    background: #58D68D;
     padding: 20px;
     border: 1px solid #ffc5c5;
     box-shadow: 0 1px 9px #cdb3b3;

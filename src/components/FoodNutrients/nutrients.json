@@ -76,29 +76,6 @@
       "tui": 2000000
   },
   {
-      "name": "Vitamin E",
-      "rda": 15000,
-      "wiki": "https://en.wikipedia.org/wiki/Vitamin_E",
-      "required": true,
-      "type": "Vitamins",
-      "tui": 1000000
-  },
-  {
-      "name": "Vitamin K",
-      "rda": 120,
-      "wiki": "https://en.wikipedia.org/wiki/Vitamin_K",
-      "required": true,
-      "type": "Vitamins"
-  },
-  {
-      "name": "Choline",
-      "rda": 550000,
-      "wiki": "https://en.wikipedia.org/wiki/Choline",
-      "required": true,
-      "type": "Vitamins",
-      "tui": 3500000
-  },
-  {
       "name": "Calcium",
       "rda": 1000000,
       "wiki": "https://en.wikipedia.org/wiki/Calcium",
@@ -278,19 +255,5 @@
       "required": true,
       "type": "Essential Amino Acids",
       "tui": 4000000
-  },
-  {
-      "name": "α-Linolenic acid",
-      "rda": 250000,
-      "wiki": "https://en.wikipedia.org/wiki/Alpha-Linolenic_acid",
-      "required": true,
-      "type": "Essential Fatty Acids"
-  },
-  {
-      "name": "Linoleic acid",
-      "rda": 10000000,
-      "wiki": "https://en.wikipedia.org/wiki/Linoleic_acid",
-      "required": true,
-      "type": "Essential Fatty Acids"
   }
 ]
