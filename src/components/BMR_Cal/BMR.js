@@ -239,9 +239,6 @@ class Bmr extends Component {
 
                 {form}
             </div>
-
-
-
         );
     }}
 export default Bmr;

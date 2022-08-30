@@ -21,12 +21,10 @@ code {
 
 .logo {
   width: 100%;
-  clear: both;
 }
 
 .logo img {
-  height: 90pt;
-  margin-top: 15pt;
+  height: 1pt;
 }
 
 .leftPanel {

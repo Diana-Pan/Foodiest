@@ -8,7 +8,7 @@ import initTutorial from './components/tutorial'
 import Foods from './components/foods'
 import { calculateMacroNutrients, calculateMicroNutrients } from './components/calculations'
 
-import logo from './imgs/logo.png'
+import logo from '../../Assets/logo.png'
 
 // Datasets
 
@@ -39,16 +39,18 @@ export default class FoodNutrients extends Component {
 
   render() {
     return (
-      <div className="foodnutrients about-section container-fluid">
-        <div className="leftPanel">
-          <div className="logo">
-          </div>
-          <Foods updateNutrients={this.updateNutrients} />
+        <div className="foodnutrients about-section container-fluid">
+          <div className="leftPanel">
+              <div className="logo">
+                  <img alt="Logo" src={logo} />
+              </div>
+            <Foods updateNutrients={this.updateNutrients} />
         </div>
         <div className="rightPanel">
           <MacroNutrients macroNutrients={this.state.macroNutrients} />
           <MicroNutrients definitions={nutrients} microNutrients={this.state.microNutrients} />
         </div>
+
       </div>
     )
   }

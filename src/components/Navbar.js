@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
-import myImg from "../Assets/LOGO.jpg";
+import myImg from "../Assets/logo.png";
 import {
   AiFillStar,
   AiOutlineHome,
