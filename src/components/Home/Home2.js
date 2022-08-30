@@ -10,6 +10,10 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> OURSELVES
             </h1>
@@ -20,6 +24,7 @@ function Home2() {
               <i>
                 <b className="purple"> If you want, let's start it!! </b>
               </i>
+              <br />
               <br />
               <br />
               Omg I don't know saying what???????????????????????????????????? &nbsp;
