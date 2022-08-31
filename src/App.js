@@ -16,7 +16,6 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Bmr from "./components/BMR_Cal/BMR";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -39,7 +38,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/About" element={<About />} />
-          <Route path="/foodnutrients" element={<FoodNutrients />} />
+          {/*<Route path="/foodnutrients" element={<FoodNutrients />} />*/}
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

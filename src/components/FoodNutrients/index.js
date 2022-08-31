@@ -8,14 +8,14 @@ import initTutorial from './components/tutorial'
 import Foods from './components/foods'
 import { calculateMacroNutrients, calculateMicroNutrients } from './components/calculations'
 
-import logo from '../../Assets/logo.png'
+import logo from './imgs/logo.png'
 
 // Datasets
 
 import nutrients from './nutrients.json'
 
 // Styles
-import './index.css'
+import '../../style.css'
 
 export default class FoodNutrients extends Component {
   state = {}

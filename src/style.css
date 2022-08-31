@@ -2,7 +2,7 @@ html {
   --section-background-color: linear-gradient(
     to bottom left,
     rgba(5, 165, 71),
-    rgba(232, 232, 232)
+    rgba(5, 165, 71)
   );
 
   --image-gradient: linear-gradient(
@@ -272,11 +272,13 @@ button:focus {
 
 .heading {
   font-size: 2.4em !important;
+  color: white;
   padding-left: 50px !important;
 }
 
 .heading-name {
   font-size: 2.5em !important;
+  color: white;
   padding-left: 45px !important;
 }
 
@@ -319,6 +321,7 @@ button:focus {
 
 .home-about-section {
   position: relative;
+  background: darkgrey;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
 }
@@ -544,9 +547,9 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 300px !important;
+  padding-top: 150px !important;
   padding-bottom: 50px !important;
-  background-image: var(--section-background-color) !important;
+  background: darkgrey !important;
   color: white !important;
 }
 
@@ -583,7 +586,7 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: white !important;
+  color: black !important;
   background-color: transparent !important;
 }
 

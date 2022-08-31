@@ -147,8 +147,10 @@ class Bmr extends Component {
             activityForm=     <div className="workout">
                 <div className="inputwrap">
                     <label className="label">Workout in a Week</label>
+                    <br/>
                     <select className="activity" value={this.state.activity} onChange={this.handleActivityChange} name="activity">
                         <option value="">Select your Activity</option>
+                        <br/>
                         <option value="1.2">Sedntary (Very little or no exercise, and desk job)</option>
                         <option value="1.375">Lightly Active (Light exercise 1 to 3 days per week)</option>
                         <option value="1.55">Moderately Active (Moderate exercise 3 to 5 days per week)</option>
@@ -157,7 +159,9 @@ class Bmr extends Component {
                     </select>
                 </div>
 
+                <br/>
                 <button type="button" onClick={()=>this.calculateCalories()}>Calculate Calories</button>
+                <br/>
                 You need: {resultCalorie} calories per week
             </div>
 
@@ -198,29 +202,33 @@ class Bmr extends Component {
                 <br/>
                 <div className="inputwrap">
                     <label className="label">Gender: </label><label>
+                    <br/>
                     <input type="radio" checked={this.state.gender ==="1"} onChange={this.handlegenderChange}className="genderF" name="gender" value="1" />Female</label>
-                    <label><input type="radio" checked={this.state.gender ==="2"} onChange={this.handlegenderChange} className="genderM" name="gender" value="2" />Male</label>
+                    <br/>
+                    <label><input type="radio" checked={this.state.gender ==="2"} onChange={this.handlegenderChange} className="genderM" name="gender" value="2" />  Male</label>
                 </div>
                 <br/>
                 <div className="inputwrap">
-                    <label className="label">Weight in kgs</label>
+                    <label className="label">Weight in kgs: </label>
                     <input type="number"onChange={this.handleWeightChange} name="weight" className="weight" min="0" max="999" />
                 </div>
                 <br/>
                 <div className="inputwrap">
-                    <label className="label">Height in cm</label>
+                    <label className="label">Height in cm: </label>
                     <input type="number" onChange={this.handleheightFeetChange} name="heightFeet" className="heightFeet" min="0" max="8" />
                     {/* <input type="number" onChange={this.handleheightInchesChange}name="heightInches" className="heightInches" min="0" max="11" /> */}
                 </div>
                 <br/>
                 <div className="inputwrap">
-                    <label className="label">Age in years</label>
+                    <label className="label">Age in years: </label>
                     <input type="number" onChange={this.handleAgeChange} className="age" name="age" min="0" max="120" />
                 </div>
                 <br/>
                 {resultBMR}
                 <br/>
                 <button type="button" onClick={()=>this.calculateBMR()}>Calculate BMR</button>
+                <br/>
+                <br/>
                 <br/>
                 {activityForm}
             </div>

@@ -4,8 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import myImg from "../Assets/logo.png";
 import {
   AiFillStar,
@@ -13,8 +11,6 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
-import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -69,15 +65,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/foodnutrients"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Food Nutrients
-              </Nav.Link>
-            </Nav.Item>
+            {/*<Nav.Item>*/}
+            {/*  <Nav.Link*/}
+            {/*    as={Link}*/}
+            {/*    to="/foodnutrients"*/}
+            {/*    onClick={() => updateExpanded(false)}*/}
+            {/*  >*/}
+            {/*    <AiOutlineUser style={{ marginBottom: "2px" }} /> Food Nutrients*/}
+            {/*  </Nav.Link>*/}
+            {/*</Nav.Item>*/}
 
             <Nav.Item>
               <Nav.Link
