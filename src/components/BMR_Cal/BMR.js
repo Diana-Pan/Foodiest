@@ -101,7 +101,7 @@ class Bmr extends Component {
             }
         }
         this.setState({
-            bmr:bmrCalc
+            bmr:bmrCalc.toFixed(2)
         });
         this.setState({
             error:''})
@@ -125,7 +125,7 @@ class Bmr extends Component {
             calories=this.state.bmr* 1.9;
         }
         this.setState({
-            calResult:calories
+            calResult:calories.toFixed(2)
         })
 
     }
@@ -162,7 +162,7 @@ class Bmr extends Component {
                 <br/>
                 <button type="button" onClick={()=>this.calculateCalories()}>Calculate Calories</button>
                 <br/>
-                You need: {resultCalorie} calories per week
+                You need: {resultCalorie} calories per day
             </div>
 
         }
