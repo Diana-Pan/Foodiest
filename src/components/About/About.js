@@ -28,7 +28,6 @@ function About() {
             <Aboutcard />
           </Col>
         </Row>
-          <br/>
           <FoodNutrients/>
         <h1 className="project-heading">
           The <strong className="purple"> results </strong>
@@ -37,11 +36,7 @@ function About() {
           <h2>
               From 1000-1500 calorie: You need eat:..............
           </h2>
-
-
         {/*<Techstack />*/}
-
-
       </Container>
     </Container>
 

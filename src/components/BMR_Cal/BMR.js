@@ -197,6 +197,7 @@ class Bmr extends Component {
 
         }else if(this.state.type==="Metric"){
             form=<div className="form">
+                <br/>
                 <h2>BMR Metric &amp; Daily Calorie Calculator</h2>
                 {error}
                 <br/>

@@ -78,7 +78,7 @@ button:focus {
 .sticky {
   background-color: #000000 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0 10px 10px 0 rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -262,6 +262,7 @@ button:focus {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+
 }
 
 .home-content {
@@ -273,13 +274,18 @@ button:focus {
 .heading {
   font-size: 2.4em !important;
   color: white;
-  padding-left: 50px !important;
+  padding-left: 45px !important;
 }
 
 .heading-name {
   font-size: 2.5em !important;
   color: white;
   padding-left: 45px !important;
+}
+
+.desc {
+  font-size: 0.7em !important;
+  color: white;
 }
 
 .main-name {
@@ -312,18 +318,33 @@ button:focus {
   padding-top: 9em !important;
 }
 
+.myAvtar-1 {
+  padding-left: 200px !important;
+  justify-content: center !important;
+  padding-top: 9em !important;
+  filter: brightness(60%);
+
+}
+
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
+  .myAvtar-1 {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+  }
 }
+
 
 .home-about-section {
   position: relative;
   background: darkgrey;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .home-about-description {
@@ -333,10 +354,49 @@ button:focus {
   text-align: center;
 }
 
+.home-about-description-2 {
+  z-index: -1;
+  color: white !important;
+  padding-top: 150px !important;
+  padding-bottom: 50px !important;
+  text-align: center;
+  background-image: var(--image-gradient), url(./Assets/bg.jpg);
+  background-size: cover;
+}
+
+.home-about-description-3 {
+  color: white !important;
+  padding-top: 150px !important;
+  padding-bottom: 20px !important;
+  text-align: center;
+}
+
+.home-about-description-2-text {
+  color: white;
+}
+
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
+}
+
+.home-about-body-2 {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 1.2em !important;
+  text-align: center;
+  vertical-align: center;
+}
+
+.home-about-body-3 {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 1.2em !important;
+  text-align: center;
+  vertical-align: center;
 }
 
 .home-about-social {
@@ -514,9 +574,9 @@ button:focus {
 }
 
 .blog-img {
-  padding: 0px !important;
+  padding: 0 !important;
   opacity: 0.8 !important;
-  border-radius: 0px !important;
+  border-radius: 0 !important;
 }
 
 .btn-primary {
@@ -546,6 +606,7 @@ button:focus {
 /* --------- */
 
 .about-section {
+  width: 100%;
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 50px !important;
